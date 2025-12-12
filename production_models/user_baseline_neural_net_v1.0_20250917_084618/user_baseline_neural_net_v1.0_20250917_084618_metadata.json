@@ -1,0 +1,37 @@
+{
+  "model_id": "user_baseline_neural_net_v1.0_20250917_084618",
+  "model_name": "user_baseline_neural_net",
+  "model_type": "pytorch",
+  "version": "1.0",
+  "training_date": "2025-09-17T08:46:18.366731",
+  "performance_metrics": {
+    "baseline_mse": 0.003839975542918014,
+    "baseline_r2": 0.08500267894946001,
+    "anomaly_accuracy": 0.986,
+    "anomaly_f1": 0.0
+  },
+  "parameters": {
+    "input_size": 11,
+    "hidden_size": 64,
+    "embedding_dim": 16,
+    "learning_rate": 0.001,
+    "epochs": 150,
+    "tasks": [
+      "baseline_prediction",
+      "anomaly_detection"
+    ],
+    "user_embedding": true,
+    "gpu_trained": true
+  },
+  "data_hash": "01ec19a45dc289c901983ec94a129598",
+  "file_path": "production_models\\user_baseline_neural_net_v1.0_20250917_084618\\user_baseline_neural_net_v1.0_20250917_084618.pth",
+  "file_size": 47438,
+  "gpu_compatible": true,
+  "framework_version": "",
+  "python_version": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "sklearn": "1.7.2",
+    "torch": "2.7.1+cu118",
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]"
+  }
+}

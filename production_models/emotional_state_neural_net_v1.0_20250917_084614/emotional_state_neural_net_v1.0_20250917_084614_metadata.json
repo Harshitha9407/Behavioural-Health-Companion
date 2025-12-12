@@ -1,0 +1,36 @@
+{
+  "model_id": "emotional_state_neural_net_v1.0_20250917_084614",
+  "model_name": "emotional_state_neural_net",
+  "model_type": "pytorch",
+  "version": "1.0",
+  "training_date": "2025-09-17T08:46:14.324509",
+  "performance_metrics": {
+    "emotion_accuracy": 0.8375,
+    "stress_accuracy": 0.89,
+    "mood_mse": 0.010152716297913618,
+    "mood_r2": 0.6281838791539907
+  },
+  "parameters": {
+    "input_size": 12,
+    "hidden_size": 64,
+    "learning_rate": 0.001,
+    "epochs": 100,
+    "tasks": [
+      "emotion_classification",
+      "stress_classification",
+      "mood_regression"
+    ],
+    "gpu_trained": true
+  },
+  "data_hash": "4ad3fa499f372698b1c45faf1c84e408",
+  "file_path": "production_models\\emotional_state_neural_net_v1.0_20250917_084614\\emotional_state_neural_net_v1.0_20250917_084614.pth",
+  "file_size": 29701,
+  "gpu_compatible": true,
+  "framework_version": "",
+  "python_version": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "sklearn": "1.7.2",
+    "torch": "2.7.1+cu118",
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]"
+  }
+}

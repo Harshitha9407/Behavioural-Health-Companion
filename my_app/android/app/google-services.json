@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "882158938196",
+    "project_id": "behavioral-health-compan-c6552",
+    "storage_bucket": "behavioral-health-compan-c6552.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882158938196:android:6818ba5dca11a5df6d65c1",
+        "android_client_info": {
+          "package_name": "com.example.my_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882158938196-1csflu6barfllcj8mbjmlmrq3553u9tl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGYg6xDkOeNZmhZTlFBLwh0kKtbkQrtmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882158938196-1csflu6barfllcj8mbjmlmrq3553u9tl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

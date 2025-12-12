@@ -1,0 +1,34 @@
+{
+  "model_id": "user_normal_range_predictor_v1.0_20250917_084617",
+  "model_name": "user_normal_range_predictor",
+  "model_type": "sklearn",
+  "version": "1.0",
+  "training_date": "2025-09-17T08:46:17.376204",
+  "performance_metrics": {
+    "mse": 0.0013262610450358247,
+    "rmse": 0.03641786711266634,
+    "r2_score": 0.6839757728510671,
+    "mae": 0.02559236708592485
+  },
+  "parameters": {
+    "n_estimators": 100,
+    "random_state": 42,
+    "target": "normal_ranges",
+    "output_range": [
+      0,
+      1
+    ],
+    "user_specific": true
+  },
+  "data_hash": "01ec19a45dc289c901983ec94a129598",
+  "file_path": "production_models\\user_normal_range_predictor_v1.0_20250917_084617\\user_normal_range_predictor_v1.0_20250917_084617.pkl",
+  "file_size": 36404017,
+  "gpu_compatible": false,
+  "framework_version": "1.7.2",
+  "python_version": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "sklearn": "1.7.2",
+    "torch": "2.7.1+cu118",
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]"
+  }
+}

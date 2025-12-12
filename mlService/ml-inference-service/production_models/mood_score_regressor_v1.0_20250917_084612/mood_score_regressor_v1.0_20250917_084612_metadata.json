@@ -1,0 +1,33 @@
+{
+  "model_id": "mood_score_regressor_v1.0_20250917_084612",
+  "model_name": "mood_score_regressor",
+  "model_type": "sklearn",
+  "version": "1.0",
+  "training_date": "2025-09-17T08:46:12.386472",
+  "performance_metrics": {
+    "mse": 0.010530064326915547,
+    "rmse": 0.10261610169420561,
+    "r2_score": 0.6143645153270691,
+    "mae": 0.08238827275441406
+  },
+  "parameters": {
+    "n_estimators": 100,
+    "random_state": 42,
+    "target": "mood_score",
+    "output_range": [
+      0,
+      1
+    ]
+  },
+  "data_hash": "4ad3fa499f372698b1c45faf1c84e408",
+  "file_path": "production_models\\mood_score_regressor_v1.0_20250917_084612\\mood_score_regressor_v1.0_20250917_084612.pkl",
+  "file_size": 14562529,
+  "gpu_compatible": false,
+  "framework_version": "1.7.2",
+  "python_version": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "sklearn": "1.7.2",
+    "torch": "2.7.1+cu118",
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]"
+  }
+}

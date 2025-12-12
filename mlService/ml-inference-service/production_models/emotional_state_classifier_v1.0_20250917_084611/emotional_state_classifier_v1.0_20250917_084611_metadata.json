@@ -1,0 +1,36 @@
+{
+  "model_id": "emotional_state_classifier_v1.0_20250917_084611",
+  "model_name": "emotional_state_classifier",
+  "model_type": "sklearn",
+  "version": "1.0",
+  "training_date": "2025-09-17T08:46:11.098321",
+  "performance_metrics": {
+    "accuracy": 0.825,
+    "precision": 0.8329283667820542,
+    "recall": 0.825,
+    "f1_score": 0.818180410160403
+  },
+  "parameters": {
+    "n_estimators": 100,
+    "random_state": 42,
+    "target": "emotional_state",
+    "classes": [
+      "Happy",
+      "Sad",
+      "Anxious",
+      "Calm",
+      "Angry"
+    ]
+  },
+  "data_hash": "4ad3fa499f372698b1c45faf1c84e408",
+  "file_path": "production_models\\emotional_state_classifier_v1.0_20250917_084611\\emotional_state_classifier_v1.0_20250917_084611.pkl",
+  "file_size": 5249457,
+  "gpu_compatible": false,
+  "framework_version": "1.7.2",
+  "python_version": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "sklearn": "1.7.2",
+    "torch": "2.7.1+cu118",
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]"
+  }
+}

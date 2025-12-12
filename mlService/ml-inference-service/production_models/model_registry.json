@@ -1,0 +1,185 @@
+{
+  "emotional_state_classifier": {
+    "emotional_state_classifier_v1.0_20250917_084521": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:45:21.031918",
+      "performance_metrics": {
+        "accuracy": 0.825,
+        "precision": 0.8329283667820542,
+        "recall": 0.825,
+        "f1_score": 0.818180410160403
+      },
+      "file_path": "production_models\\emotional_state_classifier_v1.0_20250917_084521\\emotional_state_classifier_v1.0_20250917_084521.pkl",
+      "metadata_path": "production_models\\emotional_state_classifier_v1.0_20250917_084521\\emotional_state_classifier_v1.0_20250917_084521_metadata.json",
+      "active": true
+    },
+    "emotional_state_classifier_v1.0_20250917_084611": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:46:11.098321",
+      "performance_metrics": {
+        "accuracy": 0.825,
+        "precision": 0.8329283667820542,
+        "recall": 0.825,
+        "f1_score": 0.818180410160403
+      },
+      "file_path": "production_models\\emotional_state_classifier_v1.0_20250917_084611\\emotional_state_classifier_v1.0_20250917_084611.pkl",
+      "metadata_path": "production_models\\emotional_state_classifier_v1.0_20250917_084611\\emotional_state_classifier_v1.0_20250917_084611_metadata.json",
+      "active": true
+    }
+  },
+  "stress_level_classifier": {
+    "stress_level_classifier_v1.0_20250917_084521": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:45:21.203174",
+      "performance_metrics": {
+        "accuracy": 0.955,
+        "precision": 0.9550398684063789,
+        "recall": 0.955,
+        "f1_score": 0.9540627213486329
+      },
+      "file_path": "production_models\\stress_level_classifier_v1.0_20250917_084521\\stress_level_classifier_v1.0_20250917_084521.pkl",
+      "metadata_path": "production_models\\stress_level_classifier_v1.0_20250917_084521\\stress_level_classifier_v1.0_20250917_084521_metadata.json",
+      "active": true
+    },
+    "stress_level_classifier_v1.0_20250917_084611": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:46:11.267780",
+      "performance_metrics": {
+        "accuracy": 0.955,
+        "precision": 0.9550398684063789,
+        "recall": 0.955,
+        "f1_score": 0.9540627213486329
+      },
+      "file_path": "production_models\\stress_level_classifier_v1.0_20250917_084611\\stress_level_classifier_v1.0_20250917_084611.pkl",
+      "metadata_path": "production_models\\stress_level_classifier_v1.0_20250917_084611\\stress_level_classifier_v1.0_20250917_084611_metadata.json",
+      "active": true
+    }
+  },
+  "mood_score_regressor": {
+    "mood_score_regressor_v1.0_20250917_084522": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:45:22.363881",
+      "performance_metrics": {
+        "mse": 0.010530064326915547,
+        "rmse": 0.10261610169420561,
+        "r2_score": 0.6143645153270691,
+        "mae": 0.08238827275441406
+      },
+      "file_path": "production_models\\mood_score_regressor_v1.0_20250917_084522\\mood_score_regressor_v1.0_20250917_084522.pkl",
+      "metadata_path": "production_models\\mood_score_regressor_v1.0_20250917_084522\\mood_score_regressor_v1.0_20250917_084522_metadata.json",
+      "active": true
+    },
+    "mood_score_regressor_v1.0_20250917_084612": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:46:12.386472",
+      "performance_metrics": {
+        "mse": 0.010530064326915547,
+        "rmse": 0.10261610169420561,
+        "r2_score": 0.6143645153270691,
+        "mae": 0.08238827275441406
+      },
+      "file_path": "production_models\\mood_score_regressor_v1.0_20250917_084612\\mood_score_regressor_v1.0_20250917_084612.pkl",
+      "metadata_path": "production_models\\mood_score_regressor_v1.0_20250917_084612\\mood_score_regressor_v1.0_20250917_084612_metadata.json",
+      "active": true
+    }
+  },
+  "emotional_state_neural_net": {
+    "emotional_state_neural_net_v1.0_20250917_084614": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:46:14.324509",
+      "performance_metrics": {
+        "emotion_accuracy": 0.8375,
+        "stress_accuracy": 0.89,
+        "mood_mse": 0.010152716297913618,
+        "mood_r2": 0.6281838791539907
+      },
+      "file_path": "production_models\\emotional_state_neural_net_v1.0_20250917_084614\\emotional_state_neural_net_v1.0_20250917_084614.pth",
+      "metadata_path": "production_models\\emotional_state_neural_net_v1.0_20250917_084614\\emotional_state_neural_net_v1.0_20250917_084614_metadata.json",
+      "active": true
+    }
+  },
+  "emotional_state_scaler": {
+    "emotional_state_scaler_v1.0_20250917_084614": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:46:14.329247",
+      "performance_metrics": {
+        "feature_count": 12
+      },
+      "file_path": "production_models\\emotional_state_scaler_v1.0_20250917_084614\\emotional_state_scaler_v1.0_20250917_084614.pkl",
+      "metadata_path": "production_models\\emotional_state_scaler_v1.0_20250917_084614\\emotional_state_scaler_v1.0_20250917_084614_metadata.json",
+      "active": true
+    }
+  },
+  "user_normal_range_predictor": {
+    "user_normal_range_predictor_v1.0_20250917_084617": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:46:17.376204",
+      "performance_metrics": {
+        "mse": 0.0013262610450358247,
+        "rmse": 0.03641786711266634,
+        "r2_score": 0.6839757728510671,
+        "mae": 0.02559236708592485
+      },
+      "file_path": "production_models\\user_normal_range_predictor_v1.0_20250917_084617\\user_normal_range_predictor_v1.0_20250917_084617.pkl",
+      "metadata_path": "production_models\\user_normal_range_predictor_v1.0_20250917_084617\\user_normal_range_predictor_v1.0_20250917_084617_metadata.json",
+      "active": true
+    }
+  },
+  "user_anomaly_detector": {
+    "user_anomaly_detector_v1.0_20250917_084617": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:46:17.491401",
+      "performance_metrics": {
+        "accuracy": 0.986,
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1_score": 0.0
+      },
+      "file_path": "production_models\\user_anomaly_detector_v1.0_20250917_084617\\user_anomaly_detector_v1.0_20250917_084617.pkl",
+      "metadata_path": "production_models\\user_anomaly_detector_v1.0_20250917_084617\\user_anomaly_detector_v1.0_20250917_084617_metadata.json",
+      "active": true
+    }
+  },
+  "personalized_baseline_predictor": {
+    "personalized_baseline_predictor_v1.0_20250917_084617": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:46:17.744015",
+      "performance_metrics": {
+        "mse": 0.004197425472254176,
+        "rmse": 0.0647875410264518,
+        "r2_score": -0.00017123012803232918,
+        "mae": 0.04828760031250849
+      },
+      "file_path": "production_models\\personalized_baseline_predictor_v1.0_20250917_084617\\personalized_baseline_predictor_v1.0_20250917_084617.pkl",
+      "metadata_path": "production_models\\personalized_baseline_predictor_v1.0_20250917_084617\\personalized_baseline_predictor_v1.0_20250917_084617_metadata.json",
+      "active": true
+    }
+  },
+  "user_baseline_neural_net": {
+    "user_baseline_neural_net_v1.0_20250917_084618": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:46:18.366731",
+      "performance_metrics": {
+        "baseline_mse": 0.003839975542918014,
+        "baseline_r2": 0.08500267894946001,
+        "anomaly_accuracy": 0.986,
+        "anomaly_f1": 0.0
+      },
+      "file_path": "production_models\\user_baseline_neural_net_v1.0_20250917_084618\\user_baseline_neural_net_v1.0_20250917_084618.pth",
+      "metadata_path": "production_models\\user_baseline_neural_net_v1.0_20250917_084618\\user_baseline_neural_net_v1.0_20250917_084618_metadata.json",
+      "active": true
+    }
+  },
+  "user_baseline_scaler": {
+    "user_baseline_scaler_v1.0_20250917_084618": {
+      "version": "1.0",
+      "training_date": "2025-09-17T08:46:18.374033",
+      "performance_metrics": {
+        "feature_count": 10
+      },
+      "file_path": "production_models\\user_baseline_scaler_v1.0_20250917_084618\\user_baseline_scaler_v1.0_20250917_084618.pkl",
+      "metadata_path": "production_models\\user_baseline_scaler_v1.0_20250917_084618\\user_baseline_scaler_v1.0_20250917_084618_metadata.json",
+      "active": true
+    }
+  }
+}

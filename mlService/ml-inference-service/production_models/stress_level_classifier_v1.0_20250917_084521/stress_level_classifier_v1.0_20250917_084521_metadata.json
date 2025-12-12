@@ -1,0 +1,34 @@
+{
+  "model_id": "stress_level_classifier_v1.0_20250917_084521",
+  "model_name": "stress_level_classifier",
+  "model_type": "sklearn",
+  "version": "1.0",
+  "training_date": "2025-09-17T08:45:21.203174",
+  "performance_metrics": {
+    "accuracy": 0.955,
+    "precision": 0.9550398684063789,
+    "recall": 0.955,
+    "f1_score": 0.9540627213486329
+  },
+  "parameters": {
+    "kernel": "rbf",
+    "random_state": 42,
+    "target": "stress_level",
+    "classes": [
+      "Low",
+      "Medium",
+      "High"
+    ]
+  },
+  "data_hash": "4ad3fa499f372698b1c45faf1c84e408",
+  "file_path": "production_models\\stress_level_classifier_v1.0_20250917_084521\\stress_level_classifier_v1.0_20250917_084521.pkl",
+  "file_size": 99859,
+  "gpu_compatible": false,
+  "framework_version": "1.7.2",
+  "python_version": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "sklearn": "1.7.2",
+    "torch": "2.7.1+cu118",
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]"
+  }
+}

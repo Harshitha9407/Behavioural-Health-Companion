@@ -1,0 +1,35 @@
+{
+  "model_id": "personalized_baseline_predictor_v1.0_20250917_084617",
+  "model_name": "personalized_baseline_predictor",
+  "model_type": "sklearn",
+  "version": "1.0",
+  "training_date": "2025-09-17T08:46:17.744015",
+  "performance_metrics": {
+    "mse": 0.004197425472254176,
+    "rmse": 0.0647875410264518,
+    "r2_score": -0.00017123012803232918,
+    "mae": 0.04828760031250849
+  },
+  "parameters": {
+    "hidden_layer_sizes": [
+      64,
+      32
+    ],
+    "activation": "relu",
+    "solver": "adam",
+    "max_iter": 500,
+    "random_state": 42,
+    "target": "personalized_baseline"
+  },
+  "data_hash": "01ec19a45dc289c901983ec94a129598",
+  "file_path": "production_models\\personalized_baseline_predictor_v1.0_20250917_084617\\personalized_baseline_predictor_v1.0_20250917_084617.pkl",
+  "file_size": 100604,
+  "gpu_compatible": false,
+  "framework_version": "1.7.2",
+  "python_version": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]",
+  "dependencies": {
+    "sklearn": "1.7.2",
+    "torch": "2.7.1+cu118",
+    "python": "3.13.7 (tags/v3.13.7:bcee1c3, Aug 14 2025, 14:15:11) [MSC v.1944 64 bit (AMD64)]"
+  }
+}
